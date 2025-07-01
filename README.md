@@ -18,7 +18,7 @@ The goal is to iteratively expand it with features such as pipe generation, scor
 
 ## 🚀 Technologies
 
-- **Engine**: [Godot Engine](https://godotengine.org/) (v4.x)  
+- **Engine**: [Godot Engine](https://godotengine.org/) (v4.3)  
 - **Language**: GDScript  
 - **Assets**: Custom & placeholder sprites (under `assets/`)
 
@@ -34,7 +34,7 @@ The goal is to iteratively expand it with features such as pipe generation, scor
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/udaravidunuwan/LRN_flappy_bird.git
+   git clone https://github.com/I-TH4UM13L/LRN_flappy_bird.git
 
 ## 🛠️ How to Run the Project
 
