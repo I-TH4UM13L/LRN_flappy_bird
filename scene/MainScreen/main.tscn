@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://b7q70750x7lp"]
+
+[ext_resource type="PackedScene" uid="uid://bdnnbackt6s48" path="res://scene/UserInterface/bg.tscn" id="1_71xc7"]
+[ext_resource type="Texture2D" uid="uid://d15qmkwud5py1" path="res://assets/Sprite/FlappyAsset/background-1.png" id="2_fa4v5"]
+[ext_resource type="PackedScene" uid="uid://dktul6an8wnx8" path="res://scene/Actor/player.tscn" id="2_tx1fe"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -102
+
+[node name="Sprite2D" type="Sprite2D" parent="CanvasLayer"]
+position = Vector2(144, 256)
+texture = ExtResource("2_fa4v5")
+
+[node name="Node2D" type="Node2D" parent="CanvasLayer"]
+position = Vector2(344, 192)
+
+[node name="BG" parent="." instance=ExtResource("1_71xc7")]
+
+[node name="Player" parent="." instance=ExtResource("2_tx1fe")]
+position = Vector2(152, 192)

@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bacpudl7xuipy"]
+
+[ext_resource type="Texture2D" uid="uid://vcfnmxbvftbo" path="res://assets/Sprite/FlappyAsset/pipe-red.png" id="2_2hemw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u08c3"]
+size = Vector2(48, 320)
+
+[node name="pipe" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_2hemw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_u08c3")
